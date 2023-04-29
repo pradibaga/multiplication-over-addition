@@ -1,0 +1,22 @@
+# multiplication-over-addition
+import java.util.*;
+public class Main
+{
+    public static void main(String[] args) 
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter n1 value:");
+        int n1=sc.nextInt();
+        System.out.println("Enter n2 value:");
+        int n2=sc.nextInt();
+        int product=0;
+        for(int i=0;i<n2;i++)
+        {
+            product += n1;
+          
+        }
+        System.out.print(n1+"*"+n2+"="+product);
+        
+    }
+    
+}
